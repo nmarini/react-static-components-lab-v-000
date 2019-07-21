@@ -63,7 +63,7 @@ const ripples = [];
 
 
 
-const rippleStartStatus = 'start';
+const rippleStartStatus = 'start'; // eslint-disable-next-line
 
 const isIE11 = !!window.MSInputMethodContext && !!document.documentMode;
 
